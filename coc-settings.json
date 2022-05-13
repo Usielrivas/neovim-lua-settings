@@ -1,0 +1,9 @@
+{
+  "emmet.includeLanguages ": {
+    "vue-html": "html",
+    "javascript": "javascriptreact",
+    "javascript": "javascript",
+    "erb":  "html"
+  },
+  "prettier.tabWidth": 2
+}
