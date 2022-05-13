@@ -10,6 +10,8 @@ require("nvim_comment").setup()
 
 vim.g[ 'coc_global_extensions' ]= { 'coc-css','coc-html','coc-emmet','coc-html-css-support','coc-tsserver','coc-vetur','coc-phpls','coc-prettier' }
 
+vim.cmd[[ command! -nargs=0 Prettier :CocCommand prettier.formatFile]]
+
 function VerificandoCoc()
 
 local st= vim.fn.exists(':CocInfo')
