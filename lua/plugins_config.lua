@@ -27,3 +27,29 @@ end
 
 local cl= vim.cmd('au VimEnter * lua VerificandoCoc()')
 -- print(cl)
+--
+vim.cmd[[
+let g:nvim_tree_icons = {
+    \ 'default': "",
+    \ 'symlink': "/",
+    \ 'git': {
+    \   'unstaged': "xS",
+    \   'staged': "S",
+    \   'unmerged': "x=",
+    \   'renamed': "R",
+    \   'untracked': "?",
+    \   'deleted': "X",
+    \   'ignored': "◌"
+    \   },
+    \ 'folder': {
+    \   'arrow_open': "v",
+    \   'arrow_closed': "+",
+    \   'default': "+",
+    \   'open': "v",
+    \   'empty': "+[]",
+    \   'empty_open': "v[]",
+    \   'symlink': "+[/]",
+    \   'symlink_open': "v[/]",
+    \   }
+    \ }
+]]
