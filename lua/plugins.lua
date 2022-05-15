@@ -24,6 +24,7 @@ use {
 }
 
 use 'terrortylor/nvim-comment'
+use 'sheerun/vim-polyglot'
 
 use { 'tpope/vim-fugitive' }
 use {'neoclide/coc.nvim', branch = 'release'}
