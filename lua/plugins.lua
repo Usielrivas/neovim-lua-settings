@@ -26,6 +26,15 @@ use {
 use 'terrortylor/nvim-comment'
 
 use { 'tpope/vim-fugitive' }
-use {'neoclide/coc.nvim', branch = 'release'}
+
+use 'mhartington/formatter.nvim'
+-- use {'neoclide/coc.nvim', branch = 'release'}
+use 'L3MON4D3/LuaSnip'
+use 'neovim/nvim-lspconfig'
+use 'hrsh7th/cmp-nvim-lsp'
+use 'hrsh7th/cmp-buffer'
+use 'hrsh7th/cmp-path'
+use 'hrsh7th/nvim-cmp'
+
 
 end)
