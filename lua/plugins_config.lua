@@ -4,15 +4,7 @@ require "nvim-tree".setup {
         hide_root_folder = true
     }
 }
-require("gitsigns").setup{
-signs = {
-    add          = {hl = 'GitSignsAdd'   , text = '│', numhl='GitSignsAddNr'   , linehl='GitSignsAddLn'},
-    change       = {hl = 'GitSignsChange', text = '│', numhl='GitSignsChangeNr', linehl='GitSignsChangeLn'},
-    delete       = {hl = 'GitSignsDelete', text = '_', numhl='GitSignsDeleteNr', linehl='GitSignsDeleteLn'},
-    topdelete    = {hl = 'GitSignsDelete', text = '‾', numhl='GitSignsDeleteNr', linehl='GitSignsDeleteLn'},
-    changedelete = {hl = 'GitSignsChange', text = '~', numhl='GitSignsChangeNr', linehl='GitSignsChangeLn'},
-  },
-}
+
 require("nvim-autopairs").setup {}
 require("nvim_comment").setup()
 
@@ -60,4 +52,6 @@ let g:nvim_tree_icons = {
     \   'symlink_open': "v[/]",
     \   }
     \ }
+highlight LineNr guifg= white
+
 ]]

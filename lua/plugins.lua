@@ -18,11 +18,6 @@ use {
     tag = 'nightly' -- optional, updated every week. (see issue #1193)
 }
 
-use {
-  'lewis6991/gitsigns.nvim',
-  -- tag = 'release' -- To use the latest release
-}
-
 use 'terrortylor/nvim-comment'
 use 'sheerun/vim-polyglot'
 
