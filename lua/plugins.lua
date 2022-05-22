@@ -19,9 +19,20 @@ use {
 }
 
 use 'terrortylor/nvim-comment'
-use 'sheerun/vim-polyglot'
+-- use 'sheerun/vim-polyglot'
 
 use { 'tpope/vim-fugitive' }
 use {'neoclide/coc.nvim', branch = 'release'}
+use {
+  'nvim-telescope/telescope.nvim',
+  requires = { {'nvim-lua/plenary.nvim'} }
+}
+
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = ':TSUpdate'
+    }
+
+ use "lukas-reineke/indent-blankline.nvim"
 
 end)

@@ -24,7 +24,12 @@ map("n", "<Leader>j", "<c-w>j", {noremap = true})
 map("n", "<Leader>k", "<c-w>k", {noremap = true})
 map("n", "<Leader>l", "<c-w>l", {noremap = true})
 
-map("n", "<Leader>f", ":Prettier<CR>", {noremap = true})
+map("n", "tf", ":Telescope find_files<cr>", {noremap = true})
+map("n", "tg", ":Telescope live_grep<CR>", {noremap = true})
+map("n", "tb", ":Telescope buffers<CR>", {noremap = true})
+
+-- map("n", "<Leader>cope find_files
+-- ff", ":Prettier<CR>", {noremap = true})
 
 map("n", "<Leader>nt", ":NvimTreeFindFileToggle<CR>", {noremap = true})
 
