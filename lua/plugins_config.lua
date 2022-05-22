@@ -57,7 +57,7 @@ let g:nvim_tree_icons = {
 
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all"
-  ensure_installed = { "c", "css", "lua", "html", "typescript","tsx","javascript"},
+  ensure_installed = { "c", "lua", "typescript","tsx","javascript", "ruby"},
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,
