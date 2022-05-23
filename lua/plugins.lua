@@ -35,4 +35,9 @@ use {
 
  use "lukas-reineke/indent-blankline.nvim"
 
+use {
+  'lewis6991/gitsigns.nvim',
+  -- tag = 'release' -- To use the latest release
+}
+
 end)
